@@ -6,20 +6,16 @@
     background-color: rgb(24, 28, 48);
     color: #e6ddc4;
 }
-svg{
-    border: 1px;
-    width: 200px;
-    height: 100px;
-    background-color: white;
-    
-}
+
 nav{
     display: flex;
     flex-direction: row;
     padding: 11px;
-    gap: 10px;
-    
-    
+    gap: 10px;    
+}
+svg{
+    width: 200px;
+    height: 80px;
 }
 /*.compu{
     justify-content: start;
