@@ -6,6 +6,13 @@
     background-color: rgb(24, 28, 48);
     color: #e6ddc4;
 }
+svg{
+    border: 1px;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    
+}
 nav{
     display: flex;
     flex-direction: row;
@@ -14,7 +21,7 @@ nav{
     
     
 }
-.compu{
+/*.compu{
     justify-content: start;
     width: 100px;
     height: 70px;
@@ -23,7 +30,7 @@ nav{
     color: black;
     padding-left: 70px;
     
-}
+}*/
  .item{
     width:100px;
     height: 35px;
