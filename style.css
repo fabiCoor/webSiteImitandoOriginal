@@ -172,11 +172,27 @@ svg{
     width: 1000px;
 }
 
-article, h2{
+.tVideo, h2{
     text-align: center;
     padding-top: 40px;
 }
-
+.contVideo{
+    display: flex;
+    flex-direction: column;
+   background-color: rgb(44, 41, 41);
+   width: fit-content;
+   padding-bottom: 50px;
+}
+.barraRepro, button{
+    width: 110px;
+    height: 40px;
+    background-color: #e6ddc4;
+    box-shadow: 2px 2px rgb(146, 168, 146);
+    border-radius: 10px;
+}
+.barraRepro, span{
+    color: white;   
+}
 /* estilos de juguemos----------------*/
 
 #t3{

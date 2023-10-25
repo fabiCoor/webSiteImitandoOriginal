@@ -21,7 +21,6 @@
         <h1 id="t2">HISTORIA DE LA PROGRAMACION</h1>
     </header>
     <main class="mainHistory">
-        
             <h2 class="h2T1">El principio de la historia de la programacion</h2>
             <p class="p1m">El primer lenguaje de programación fue un algoritmo creado por Ada Lovelace en 1883. Ada Lovelace creó este algoritmo para el motor analítico de Charles Babbage. El propósito de este algoritmo era calcular los números de Bernoulli. En 1936, por primera vez, los códigos informáticos fueron especializados por Alonzo Church y Alan Turing. Church expresó el cálculo lambda de forma formulativa.</p>
         
@@ -34,24 +33,20 @@
             En 1964 se creo Basic, que fue diseñado como un lenguaje simppficado para aquellos que no tenían como base fuertes conocimientos técnicos o matemáticos. <br>
             Entre 1969 y 1973 se crea <strong>C</strong>,a manos de Dennis Ritchie para los laboratorios Bell Telephone para usarlos en el sistema Unix. Se le llamó «C» porque sus características derivaban de un lenguaje anterior llamado «B». <br>
             En los laboratorios Bells, Bjarne Stroustrup modificó el lenguaje C al C++, creando lo que muchos consideran el lenguaje de programación más popular que ha existido nunca. Además, ha sido listado en lo alto de los top ten de los lenguajes de programación desde 1986 y archivado en el Hall of Fame en 2003. Hoy en día es usado por Firefox, Office y Adobe PDF Reader <br> Esto dio el puntapie a que se sigan perfeccionando los lenguajes hasta llegar al os lenguajes de hoy en dia</p>
-       
-    </main>
-    <article>
-        <h2>Un Breve video para completar lo visto</h2>
-        <section>
-            <video poster="/imagens/img-video.jpg">
+       </main>
+       <h2 class="tVideo">Un Breve video para completar lo visto</h2>
+    <section class="contVideo">
+
+            <video id="video" poster="/imagens/img-video.jpg" width="900px">
                 <source src="./video/historia-Comp.mp4" type="video/mp4">
                 <source src="./video/historia-Comp.ogv" type="video/ogv">
             </video>
-            <div>
-                <button><img src="./imagens/play.svg" alt="Inicio del Video"></button>
-                <button><img src="./imagens/pausa.svg" alt="Pausar el video"></button>
-            </div>
-            <div>
-             <p>Duracion del video 4:41</p>
-            </div> 
-        </section>
-    </article>
+            <div class="barraRepro">
+                <button onclick="inicioVideo()"> <img src="/imagens/play.svg" alt="">Play</button>
+                <button onclick="pausaVideo()"> <img src="./imagens/pausa.svg" alt="">Pausa</button>
+                <span class="tiempo">Duracion Video 4:41</span></p>
+           
+    </section>
     <footer class="raiz">
         <img src="/imagens/logo.png" alt="logo">
              <h5>
